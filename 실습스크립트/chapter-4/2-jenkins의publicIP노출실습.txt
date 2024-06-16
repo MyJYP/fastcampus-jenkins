@@ -1,13 +1,26 @@
 * ngrok 가입 및 auth 토큰 발급
   - https://ngrok.com/ 이동후 가입
   - https://dashboard.ngrok.com/get-started/your-authtoken 로 이동하여 auth token 복사
+//2hx2ZFIg8DnvrRGOfEuPbVW3oMF_3t9dfLDd9VTjB3fNzn4RH
+
+
+//J8JBCD58J4
+DGRX6S9CAE
+S2DKVG9AVS
+6TXSTMH2T2
+W42Y44MTW8
+F7C6VV7YJG
+7D66XVBEY4
+C5MHA3TCQ9
+MFC24Z8QBZ
+NF73W332VZ
 
 * ngrok 실행
-
+//
   - ngrok docker container 실행
 
   docker run -d --rm --name ngrok --hostname ngrok \
-         -e NGROK_AUTHTOKEN=2RPenMrLxsKWIbQWSsmLPmqz2xZ_7HGMgmEWJUbJVnbhCXBJr \
+         -e NGROK_AUTHTOKEN=2hx2ZFIg8DnvrRGOfEuPbVW3oMF_3t9dfLDd9VTjB3fNzn4RH \
          --network=practice \
          -p 4040:4040 \
          ngrok/ngrok:latest http http://jenkins:8080
